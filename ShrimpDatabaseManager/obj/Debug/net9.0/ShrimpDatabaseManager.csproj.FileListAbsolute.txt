@@ -1,0 +1,12 @@
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/bin/Debug/net9.0/ShrimpDatabaseManager.deps.json
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/bin/Debug/net9.0/ShrimpDatabaseManager.dll
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/bin/Debug/net9.0/ShrimpDatabaseManager.pdb
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.AssemblyInfoInputs.cache
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.AssemblyInfo.cs
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.csproj.CoreCompileInputs.cache
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.sourcelink.json
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.dll
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/refint/ShrimpDatabaseManager.dll
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ShrimpDatabaseManager.pdb
+/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/Debug/net9.0/ref/ShrimpDatabaseManager.dll
