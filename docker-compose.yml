@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  # Serviço para o banco de dados PostgreSQL
+  postgres-db:
+    image: postgres:16-alpine
+    container_name: shrimp_postgres_db
+    environment:
+      - POSTGRES_DB=scheduling_db
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init-scripts/postgres-init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d scheduling_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Serviço para o banco de dados MySQL
+  mysql-db:
+    image: mysql:8.0
+    container_name: shrimp_mysql_db
+    environment:
+      - MYSQL_DATABASE=scheduling_db
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=rootpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./init-scripts/mysql-init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
