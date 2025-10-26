@@ -7,14 +7,15 @@ namespace ShrimpDatabaseManager.Adapters
     {
         private readonly string _connectionString;
 
-        public MySqlAdapter(string connectionString) : base()
+        public MySqlAdapter(string connectionString)
         {
             _connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
         }
 
-        public IDbConnection CreateConnection()
+        public override IDbConnection CreateConnection()
         {
             return new MySqlConnection(_connectionString);
         }
     }
+
 }

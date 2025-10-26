@@ -17,7 +17,7 @@ namespace ShrimpDatabaseManager.Factories
             {
                 "postgres" => new PostgresAdapter(connectionString),
                 "mysql" => new MySqlAdapter(connectionString),
-                "inmemory" => new InMemoryAdapter(),
+                // "inmemory" => new InMemoryAdapter(),
                 _ => throw new ArgumentException($"Tipo de banco de dados não suportado: '{dbType}'")
             };
         }

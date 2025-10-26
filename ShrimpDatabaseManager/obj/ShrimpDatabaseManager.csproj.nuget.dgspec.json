@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj": {}
+    "/Users/andrealijaramosagostini/RiderProjects/shrimp/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj": {}
   },
   "projects": {
-    "/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj": {
+    "/Users/andrealijaramosagostini/RiderProjects/shrimp/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj",
+        "projectUniqueName": "/Users/andrealijaramosagostini/RiderProjects/shrimp/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj",
         "projectName": "ShrimpDatabaseManager",
-        "projectPath": "/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj",
-        "packagesPath": "/home/rafael/.nuget/packages/",
-        "outputPath": "/home/rafael/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/",
+        "projectPath": "/Users/andrealijaramosagostini/RiderProjects/shrimp/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/ShrimpDatabaseManager.csproj",
+        "packagesPath": "/Users/andrealijaramosagostini/.nuget/packages/",
+        "outputPath": "/Users/andrealijaramosagostini/RiderProjects/shrimp/shrimp/libs/ShrimpDatabaseManager/ShrimpDatabaseManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/rafael/.nuget/NuGet/NuGet.Config"
+          "/Users/andrealijaramosagostini/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,7 +12,7 @@ namespace ShrimpDatabaseManager.Adapters
             _connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
         }
 
-        public IDbConnection CreateConnection()
+        public override IDbConnection CreateConnection()
         {
             return new NpgsqlConnection(_connectionString);
         }

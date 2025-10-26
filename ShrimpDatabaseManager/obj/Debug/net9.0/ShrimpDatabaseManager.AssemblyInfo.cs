@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShrimpDatabaseManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd8ab42c1ca292889f13a6da0a3c7c96da22a09b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db163098b9091ec149b8a9f408a87188764f6ed5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShrimpDatabaseManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShrimpDatabaseManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

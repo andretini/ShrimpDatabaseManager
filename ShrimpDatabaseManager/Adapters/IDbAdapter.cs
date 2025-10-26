@@ -1,4 +1,5 @@
 using System.Data;
+using ShrimpDatabaseManager.Mappers;
 
 namespace ShrimpDatabaseManager.Adapters
 {
@@ -10,14 +11,14 @@ namespace ShrimpDatabaseManager.Adapters
     public abstract class IDbAdapter
     {
         public abstract IDbConnection CreateConnection();
-        protected IDictionary<Type, object> Mappers { get; }
+        private IDictionary<Type, object> Mappers { get; set; }
 
-        public IDbAdapter()
+        protected IDbAdapter()
         {
             Mappers = new Dictionary<Type, object>();
         }
 
-        public void RegisterMapper<T>(IDataMapper<T> mapper)
+        public void RegisterMapper<T>(IDataMapper<T> mapper) where T : class
         {
             Mappers[typeof(T)] = mapper;
         }
