@@ -7,8 +7,19 @@ namespace ShrimpDatabaseManager.Adapters
     /// Esta abstração permite que o UnitOfWork opere com diferentes bancos de dados (PostgreSQL, MySQL)
     /// sem conhecer os detalhes de implementação de cada um. É a base da intercambialidade.
     /// </summary>
-    public interface IDbAdapter
+    public abstract class IDbAdapter
     {
-        IDbConnection CreateConnection();
+        public abstract IDbConnection CreateConnection();
+        protected IDictionary<Type, object> Mappers { get; }
+
+        public IDbAdapter()
+        {
+            Mappers = new Dictionary<Type, object>();
+        }
+
+        public void RegisterMapper<T>(IDataMapper<T> mapper)
+        {
+            Mappers[typeof(T)] = mapper;
+        }
     }
 }
