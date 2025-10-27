@@ -11,11 +11,16 @@ namespace ShrimpDatabaseManager.Adapters
     public abstract class IDbAdapter
     {
         public abstract IDbConnection CreateConnection();
-        private IDictionary<Type, object> Mappers { get; set; }
+        private Dictionary<Type, object> Mappers { get; set; }
 
         protected IDbAdapter()
         {
             Mappers = new Dictionary<Type, object>();
+        }
+
+        public Dictionary<Type, object> get_mappers()
+        {
+            return Mappers;
         }
 
         public void RegisterMapper<T>(IDataMapper<T> mapper) where T : class

@@ -32,9 +32,7 @@ namespace ShrimpDatabaseManager.UnitOfWork
             // O Executor é instanciado com a transação ativa
             Executor = new AdoExecutor(
                 _transaction,
-                new Dictionary<Type, object> {
-                    { typeof(Appointment), new Mappers.AppointmentDataMapper() }
-                }
+                Adapter.get_mappers()
             );
         }
 
